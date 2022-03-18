@@ -2,9 +2,7 @@
 
 ## Results
 
-### Future
-
-* [i7-11850H](future/result/i7-11850H)
+Future benchmark [results](future/result/RESULTS.md).
 
 ## How to add your own results
 
@@ -14,10 +12,6 @@ Need to install:
 ```
 cmake
 ninja
-```
-
-Also you can install:
-```
 gcc
 g++
 clang
@@ -35,6 +29,8 @@ If you install all these dependencies, you can run:
 ./script/build.sh
 ./script/run.sh --proc="Your proc name without space"
 ```
+
+At this point, new benchmark results will be in `:/future/result/<Your proc name without space>`
 
 Then commit and make PR, thanks!
 
